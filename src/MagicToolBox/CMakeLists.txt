@@ -1,8 +1,16 @@
-cmake_minimum_required(VERSION "3.13.0")
+cmake_minimum_required(VERSION "3.19.0")
 
 project("MagicToolBox" DESCRIPTION "MagicToolBox" VERSION "0.0.0.0")
 
 include("${PROJECT_SOURCE_DIR}/module.cmake")
+
+importTarget("BasicSupport")#
+importTarget("BasicFramework")#
+importTarget("BasicUIFramework")#
+importTarget("CustomFramework")#
+importTarget("CustomFramework4CSharp")#
+importTarget("CustomFramework4Java")#
+importTarget("CustomFramework4Python")#
 
 #add_subdirectory("")#
 add_subdirectory("00_Libraries")#
