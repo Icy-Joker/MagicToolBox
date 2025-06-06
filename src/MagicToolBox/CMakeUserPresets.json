@@ -1,0 +1,378 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "hidden": true,
+      "name": "vc140-x64",
+      "inherits": "windows",
+      "description": "",
+      "generator": "Visual Studio 14 2015",
+      "toolset": "v140",
+      "architecture": "x64",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "vc140-x32",
+      "inherits": "windows",
+      "description": "",
+      "generator": "Visual Studio 14 2015",
+      "toolset": "v140",
+      "architecture": "win32",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "vc143-x64",
+      "inherits": "windows",
+      "description": "",
+      "generator": "Visual Studio 17 2022",
+      "toolset": "v143",
+      "architecture": "x64",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "vc143-x32",
+      "inherits": "windows",
+      "description": "",
+      "generator": "Visual Studio 17 2022",
+      "toolset": "v143",
+      "architecture": "win32",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "linux-x64",
+      "inherits": "linux",
+      "description": "",
+      "generator": "Unix Makefiles",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "linux-x32",
+      "inherits": "linux",
+      "description": "",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "CMAKE_C_FLAGS": "-m32",
+        "CMAKE_CXX_FLAGS": "-m32",
+        "CMAKE_EXE_LINKER_FLAGS": "-m32"
+      },
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "linux-aarch64",
+      "inherits": "linux",
+      "description": "",
+      "generator": "Unix Makefiles",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "linux-aarch32",
+      "inherits": "linux",
+      "description": "",
+      "generator": "Unix Makefiles",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": true,
+      "name": "darwin-arm64",
+      "inherits": "darwin",
+      "description": "",
+      "generator": "Unix Makefiles",
+      "environment": {
+        "SecondParty": "",
+        "ThirdParty": "",
+        "BOOST_DIR": "",
+        "QT_DIR": ""
+      }
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "vc140-x64"
+      ],
+      "name": "debug-vc140-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "vc140-x64"
+      ],
+      "name": "relwithdebinfo-vc140-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "vc140-x64"
+      ],
+      "name": "release-vc140-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "vc140-x32"
+      ],
+      "name": "debug-vc140-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "vc140-x32"
+      ],
+      "name": "relwithdebinfo-vc140-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "vc140-x32"
+      ],
+      "name": "release-vc140-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "vc143-x64"
+      ],
+      "name": "debug-vc143-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "vc143-x64"
+      ],
+      "name": "relwithdebinfo-vc143-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "vc143-x64"
+      ],
+      "name": "release-vc143-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "vc143-x32"
+      ],
+      "name": "debug-vc143-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "vc143-x32"
+      ],
+      "name": "relwithdebinfo-vc143-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "vc143-x32"
+      ],
+      "name": "release-vc143-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "linux-x64"
+      ],
+      "name": "debug-linux-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "linux-x64"
+      ],
+      "name": "relwithdebinfo-linux-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "linux-x64"
+      ],
+      "name": "release-linux-x64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "linux-x32"
+      ],
+      "name": "debug-linux-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "linux-x32"
+      ],
+      "name": "relwithdebinfo-linux-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "linux-x32"
+      ],
+      "name": "release-linux-x32",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "linux-aarch64"
+      ],
+      "name": "debug-linux-aarch64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "linux-aarch64"
+      ],
+      "name": "relwithdebinfo-linux-aarch64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "linux-aarch64"
+      ],
+      "name": "release-linux-aarch64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "debug",
+        "darwin-arm64"
+      ],
+      "name": "debug-darwin-arm64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "relwithdebinfo",
+        "darwin-arm64"
+      ],
+      "name": "relwithdebinfo-darwin-arm64",
+      "description": ""
+    },
+    {
+      "hidden": false,
+      "inherits": [
+        "release",
+        "darwin-arm64"
+      ],
+      "name": "release-darwin-arm64",
+      "description": ""
+    }
+  ],
+  "buildPresets": [
+    {
+      "hidden": false,
+      "name": "release-vc143-x64",
+      "configurePreset": "release-vc143-x64"
+    },
+    {
+      "hidden": false,
+      "name": "release-vc143-x32",
+      "configurePreset": "release-vc143-x32"
+    },
+    {
+      "hidden": false,
+      "name": "release-linux-x64",
+      "configurePreset": "release-linux-x64"
+    },
+    {
+      "hidden": false,
+      "name": "release-linux-x32",
+      "configurePreset": "release-linux-x32"
+    }
+  ]
+}
