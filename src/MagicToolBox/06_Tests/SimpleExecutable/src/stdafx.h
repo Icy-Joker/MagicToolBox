@@ -1,0 +1,6 @@
+#pragma once
+
+#ifndef UNIVERSALTEMPLATE_STDAFX_H
+# define UNIVERSALTEMPLATE_STDAFX_H
+
+#endif
