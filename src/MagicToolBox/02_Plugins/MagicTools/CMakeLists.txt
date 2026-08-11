@@ -14,3 +14,4 @@ add_subdirectory("Plugin_NetworkTool")#添加网络测试工具插件
 add_subdirectory("Plugin_PortScanner")#添加端口扫描工具插件
 add_subdirectory("Plugin_QRCodeGenerator")#添加二维码编码工具插件
 add_subdirectory("Plugin_RegularExpressionValidator")#添加正则验证工具插件
+add_subdirectory("Plugin_SerialPortDebugger")#添加串口调试工具插件
