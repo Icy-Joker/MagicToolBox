@@ -9,3 +9,4 @@ add_subdirectory("Plugin_GraphicsViewDemo")#添加2D场景绘制示例插件
 add_subdirectory("Plugin_IdentifyCardNumberChecker")#添加身份证号码验证工具插件
 add_subdirectory("Plugin_JsonVisualEditor")#添加Json编辑器插件
 add_subdirectory("Plugin_MarkDownEditor")#添加Markdown编辑器插件
+add_subdirectory("Plugin_MediaPlayer")#添加媒体播放器插件
