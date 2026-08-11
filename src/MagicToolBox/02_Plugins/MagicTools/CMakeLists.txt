@@ -11,3 +11,4 @@ add_subdirectory("Plugin_JsonVisualEditor")#添加Json编辑器插件
 add_subdirectory("Plugin_MarkDownEditor")#添加Markdown编辑器插件
 add_subdirectory("Plugin_MediaPlayer")#添加媒体播放器插件
 add_subdirectory("Plugin_NetworkTool")#添加网络测试工具插件
+add_subdirectory("Plugin_PortScanner")#添加端口扫描工具插件
