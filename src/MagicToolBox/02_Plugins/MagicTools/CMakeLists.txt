@@ -16,3 +16,4 @@ add_subdirectory("Plugin_QRCodeGenerator")#添加二维码编码工具插件
 add_subdirectory("Plugin_RegularExpressionValidator")#添加正则验证工具插件
 add_subdirectory("Plugin_SerialPortDebugger")#添加串口调试工具插件
 add_subdirectory("Plugin_StyleSheetViewer")#添加样式表编辑工具插件
+add_subdirectory("Plugin_XmlVisualEditor")#添加XML编辑器插件
