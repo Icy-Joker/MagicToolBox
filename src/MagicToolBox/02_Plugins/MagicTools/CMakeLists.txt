@@ -7,3 +7,4 @@ add_subdirectory("Plugin_CustomDelegateDemo")#添加自定义委托示例插件
 add_subdirectory("Plugin_DatabaseVisualizationTool")#添加数据库可视化工具插件
 add_subdirectory("Plugin_GraphicsViewDemo")#添加2D场景绘制示例插件
 add_subdirectory("Plugin_IdentifyCardNumberChecker")#添加身份证号码验证工具插件
+add_subdirectory("Plugin_JsonVisualEditor")#添加Json编辑器插件
